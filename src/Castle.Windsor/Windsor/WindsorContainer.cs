@@ -715,4 +715,9 @@ namespace Castle.Windsor
 		}
 #endif
 	}
+
+    public static class CurrentWindsor
+    {
+        public static IWindsorContainer Container { get; set; }
+    }
 }
